@@ -57,7 +57,7 @@ function getWeatherData() {
   const city = cityInput.value.toLowerCase();
 
   if (!city) {
-    alert("Please enter a city name, for eg:HP,Delhi,Shimla,Punjab");
+    alert("Please enter a city name");
     return;
   }
 
@@ -75,6 +75,6 @@ function getWeatherData() {
 
     weatherDisplay.style.display = "block";
   } else {
-    alert("City not found. Try somthing else.");
+    alert("City not found. Try somthing else.,For eg:HP,Delhi,Shimla,Punjab");
   }
 }
