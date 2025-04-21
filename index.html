@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Dashboard</h1>
+
+      <div class="search-container">
+        <input type="text" id="city-input" placeholder="Enter City Name" />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div class="loader" id="loader"></div>
+
+      <div class="weather-display" id="weather-display">
+        <div class="location" id="location">City Name</div>
+        <div class="weather-information">
+          <div class="weather-temperature" id="temperature">--°C</div>
+          <div class="weather-condition" id="condition">Weather Condition</div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
