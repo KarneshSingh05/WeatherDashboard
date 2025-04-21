@@ -57,7 +57,7 @@ function getWeatherData() {
   const city = cityInput.value.toLowerCase();
 
   if (!city) {
-    alert("Please enter a city name");
+    alert("Please enter a city name, for eg:HP,Delhi,Shimla,Punjab");
     return;
   }
 
